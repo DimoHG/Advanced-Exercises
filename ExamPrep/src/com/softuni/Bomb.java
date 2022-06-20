@@ -20,6 +20,9 @@ public class Bomb {
             List<Character> characterList = Arrays.stream(scanner.nextLine().split(" "))
                     .map(e -> e.charAt(0))
                     .collect(Collectors.toList());
+
+
+
             for (int col = 0; col < characterList.size(); col++) {
                 char currentChar = characterList.get(col);
                 if (currentChar == 's') {
