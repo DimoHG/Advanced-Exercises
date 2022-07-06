@@ -18,27 +18,22 @@ public class Main {
                     case "Cat":
                         Cat cat = new Cat(name, age, gender);
                         System.out.println(cat);
-                        System.out.println(cat.produceSound());
                         break;
                     case "Frog":
                         Frog frog = new Frog(name, age, gender);
                         System.out.println(frog);
-                        System.out.println(frog.produceSound());
                         break;
                     case "Dog":
                         Dog dog = new Dog(name, age, gender);
                         System.out.println(dog);
-                        System.out.println(dog.produceSound());
                         break;
                     case "Kitten":
                         Kitten kitten = new Kitten(name, age);
                         System.out.println(kitten);
-                        System.out.println(kitten.produceSound());
                         break;
                     case "Tomcat":
                         Tomcat tomcat = new Tomcat(name, age);
                         System.out.println(tomcat);
-                        System.out.println(tomcat.produceSound());
                         break;
                 }
             }catch (IllegalArgumentException ex){
